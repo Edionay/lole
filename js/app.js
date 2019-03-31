@@ -3,8 +3,8 @@ var app = angular.module('loginLegalApp', ["ngRoute", "profileCtrlModule", "home
 app.config($routeProvider => {
     $routeProvider
         .when("/", {
-            templateUrl: "views/home.html",
-            controller: "HomeCtrl"
+            templateUrl: "views/login.html",
+            controller: "LoginCtrl"
         })
         .when("/profile", {
             templateUrl: "views/profile.html",

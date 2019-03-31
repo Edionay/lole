@@ -40,7 +40,7 @@ angular.module("loginCtrlModule", ["firebase"])
 
 
     }])
-    .service("logout", ["$location", "$firebaseAuth", function($location, $firebaseAuth) {
+    .service("logoutService", ["$location", "$firebaseAuth", function($location, $firebaseAuth) {
         var user = "";
         var auth = $firebaseAuth();
 
