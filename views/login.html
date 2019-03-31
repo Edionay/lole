@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+
+        <form class="col s6" ng-submit="signIn()">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="userEmail" type="email" class="validate" ng-model="user.email" required>
+                    <label for="userEmail">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="userPassword" type="password" class="validate" ng-model="user.password" required>
+                    <label for="userPassword">Password</label>
+                </div>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+        </form>
+
+        <form class="col s6" ng-submit="signUp()">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="newUserEmail" type="email" class="validate" ng-model="newUser.email" required>
+                    <label for="newUserEmail">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="newUserPassword" type="password" class="validate" ng-model="newUser.password" required>
+                    <label for="newUserPassword">Password</label>
+                </div>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+
+        </form>
+
+    </div>
+
+</div>z
