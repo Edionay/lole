@@ -2,7 +2,9 @@
 Login Legal (LOLE) é uma simples aplicação feita com Angularjs e Firebase, proporcioando uma confortável experiência de login.
 
 # Como usar?
-Se você estiver utilizando o navegador Mozilla Firefox, basta executar o arquivo index.html.
+Você pode usar o LoLe de forma online clicando [aqui](https://edionay.com/lole)
+
+Para rodar localmente e se você estiver utilizando o navegador Mozilla Firefox, basta executar o arquivo index.html.
 Para outros navegadores, siga os seguintes passos:
 
 1. Com o [NPM e Node.js](https://nodejs.org/) instalados, execute o comando `npm install` na pasta raiz do projeto;
