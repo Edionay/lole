@@ -1,1 +1,31 @@
-<h1>Perfil</h1>
+<div class="main">
+    <!-- Sing in  Form -->
+    <section class="sign-in">
+        <div class="container">
+            <div class="signin-content">
+                <div class="signin-image">
+                    <img class="profile-picture" ng-src="{{profilePicture}}" />
+                </div>
+
+                <div class="signin-form">
+                    <h2 class="form-title">{{greeting}}</h2>
+                    <div class="form-group form-button">
+                        <input type="file" name="file" ngf-select="uploadFile($file)" accept="image/jpeg" class="form-submit" />
+                    </div>
+
+                    <div class="lds-ellipsis" ng-show="loading">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <span ng-show="info">Info: {{info}} </span>
+
+                    <div class="form-group form-button">
+                        <input type="button" class="form-submit" ng-click="logout()" value="Sair" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

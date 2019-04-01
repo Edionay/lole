@@ -1,22 +1,22 @@
-var app = angular.module('loginLegalApp', ["ngRoute", "profileCtrlModule", "homeCtrlModule", "loginCtrlModule"]);
+var lole = angular.module('loginLegalApp', ["ngRoute", "profileCtrlModule", "signupCtrlModule", "signinCtrlModule", "ngFileUpload"]);
 
-app.config($routeProvider => {
+lole.config($routeProvider => {
     $routeProvider
         .when("/", {
-            templateUrl: "views/login.html",
-            controller: "LoginCtrl"
+            templateUrl: "views/signin.html",
+            controller: "SigninCtrl"
         })
         .when("/profile", {
             templateUrl: "views/profile.html",
             controller: "ProfileCtrl"
         })
-        .when("/home", {
-            templateUrl: "views/home.html",
-            controller: "ProfileCtrl"
+        .when("/signin", {
+            templateUrl: "views/signin.html",
+            controller: "SigninCtrl"
         })
-        .when("/login", {
-            templateUrl: "views/login.html",
-            controller: "LoginCtrl"
+        .when("/signup", {
+            templateUrl: "views/signup.html",
+            controller: "SignupCtrl"
         })
         .otherwise({
             redirectTo: "/"

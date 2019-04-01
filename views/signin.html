@@ -1,0 +1,36 @@
+<div class="main">
+    <!-- Sing in  Form -->
+    <section class="sign-in">
+        <div class="container">
+            <div class="signin-content">
+                <div class="signin-image">
+                    <img src="images/logo.jpeg" alt="sing up image" />
+                    <a href="#!/signup" class="signup-image-link" ng-click="toggleForm()">Criar uma conta</a>
+                </div>
+
+                <div class="signin-form">
+                    <h2 class="form-title">Login</h2>
+                    <form ng-submit="signIn()" class="register-form" id="login-form">
+                        <div class="form-group">
+                            <input type="email" name="your_name" id="your_name" placeholder="Seu e-mail" ng-model="user.email" required="true" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="your_pass" id="your_pass" placeholder="Senha" ng-model="user.password" required="true" />
+                        </div>
+                        <div class="form-group form-button" ng-hide="loading">
+                            <input type="submit" name="signin" id="signin" class="form-submit" value="Entrar" />
+                        </div>
+                        <div class="lds-ellipsis" ng-show="loading">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <span ng-show="error">Erro: {{error}} </span>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
