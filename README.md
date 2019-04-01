@@ -1,22 +1,21 @@
-# Funcionalidade
-Precisamos de uma interface para autenticação com a opção de auto cadastro (sign-up). Quando o usuário clica em se cadastrar (sign-up) o sistema lhe dá a oportunidade de cadastrar 3(três) informações obrigatórias: 
-* Nome
-* Email
-* Senha
+# LoLe (edionay.com/lole)
+Login Legal (LOLE) é uma simples aplicação feita com Angularjs e Firebase, proporcioando uma confortável experiência de login.
 
-Depois da realização do cadastro, o usuário recém cadastrado pode se autenticar utilizando o email e senha informados. Após a realização da autenticação o sistema lhe exibe sua página de perfil, exibindo os dados informados e permitindo a inclusão de uma foto de perfil.
+# Como usar?
+Se você estiver utilizando o navegador Mozilla Firefox, basta executar o arquivo index.html.
+Para outros navegadores, siga os seguintes passos:
 
-# Restrições
-* A solução de software deve utilizar as tecnologias abaixo. 
-  * Javascript
-  * AngularJS
-  * Firebase Authentication
-  * Firebase Firestore
-  * Firebase Realtime Database
-  * Git
-* Entrega daté 31/03/2019 a meia noite (23:59)
+1. Com o [NPM e Node.js](https://nodejs.org/) instalados, execute o comando `npm install` na pasta raiz do projeto;
+2. Após a instalação automática da dependência http-server no passo anterior, execute o comendo `http-server -o` também na raiz do projeto;
+3. O servidor será iniciado e disponibilizará o número da porta no terminal;
+4. Acesse `http://localhost:<porta_disponibilizada/` no seu navegador navegador.
+
+# Problemas conhecidos
+...que não foram corrigidos pela restrição de tempo.
+* Por algum motivo o plugin de seleção de arquivo "trava" a view, sendo necessário atualizar a página para ver a alteração da foto. Esta trava impede até a atualização de dados na tela feita pelo Angular.
 
 # Referências
+
 * Angular JS 
    * Começar projeto simples - https://www.devteam.space/blog/how-to-build-a-simple-angularjs-project-tutorial/
    * Tutorial - https://docs.angularjs.org/tutorial
@@ -33,10 +32,3 @@ Depois da realização do cadastro, o usuário recém cadastrado pode se autenti
    * Guia - https://firebase.google.com/docs/database/web/start?authuser=0
    * Referência - https://firebase.google.com/docs/reference/js/firebase.database?authuser=0
 * Git - https://git-scm.com/doc
-
-Depois da realização do cadastro, o usuário recém cadastrado pode se autenticar utilizando o email e senha informados. Após a realização da autenticação o sistema lhe exibe sua página de perfil, exibindo os dados informados e permitindo a inclusão de uma foto de perfil.
-
-# Entregáveis
-* A solução para o problema apresentado utilizando as tecnologias de referência
-* Versionamento do código fonte em branche separada da master. 
-* Pull request para a branch master.
