@@ -42,7 +42,7 @@ angular.module("signinCtrlModule", ["firebase"])
             logoutUser: function() {
                 auth.$signOut()
                     .then(function() {
-                        $location.path("/login")
+                        $location.path("/signin")
                     })
                     .catch(function(error) {
                         console.log(error);

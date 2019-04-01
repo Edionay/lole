@@ -1,0 +1,26 @@
+{
+  "name": "lole",
+  "version": "1.0.0",
+  "description": "LOgin LEgal é uma simples aplicação feita em Angularjs e Firebase.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabricaDeSoftwareINF/fabcaduser1.git"
+  },
+  "author": "Edionay Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabricaDeSoftwareINF/fabcaduser1/issues"
+  },
+  "homepage": "https://github.com/FabricaDeSoftwareINF/fabcaduser1#readme"
+}

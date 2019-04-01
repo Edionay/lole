@@ -9,6 +9,7 @@ angular.module("profileCtrlModule", ["firebase"])
         $scope.profilePicture = $scope.currentUser.photoURL || "./images/nopicture.png";
 
         $scope.greeting = "Olá, " + $scope.currentUser.displayName;
+        $scope.userEmail = $scope.currentUser.email;
 
         $scope.logout = loginService.logoutUser;
 

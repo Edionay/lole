@@ -3,8 +3,8 @@ var lole = angular.module('loginLegalApp', ["ngRoute", "profileCtrlModule", "sig
 lole.config($routeProvider => {
     $routeProvider
         .when("/", {
-            templateUrl: "views/signin.html",
-            controller: "SigninCtrl"
+            templateUrl: "views/signup.html",
+            controller: "SignupCtrl"
         })
         .when("/profile", {
             templateUrl: "views/profile.html",
