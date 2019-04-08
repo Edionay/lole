@@ -1,4 +1,4 @@
-# LoLe (edionay.com/lole)
+# LoLe
 Login Legal (LOLE) é uma simples aplicação feita com Angularjs e Firebase, proporcioando uma confortável experiência de login.
 
 # Como usar?
